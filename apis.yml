@@ -1,17 +1,37 @@
 aid: artbio
 name: ARTBIO
-description: 'ARTBIO is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ARTBIO is a clinical-stage radiopharmaceutical company developing a
+  new class of targeted Alpha Radioligand Therapies (ARTs) built on the lead-212 (212Pb)
+  isotope. Founded in 2021 out of research at the University of Oslo and Norway''s
+  Radium Hospital by Roy Larsen and Oyvind Bruland - the scientific co-founders behind
+  Xofigo - the company pairs a differentiated oncology pipeline with its proprietary
+  AlphaDirect isotope-production technology, a first-of-its-kind 212Pb isolation method
+  intended to enable distributed manufacturing and reliable supply of alpha radioligand
+  therapies. Its lead program AB001 (212Pb-NG001) is in first-in-human Phase 1 trials
+  in metastatic castration-resistant prostate cancer, with additional preclinical and
+  discovery programs across breast, head and neck, lung, pancreatic and other solid
+  tumors. ARTBIO operates from Cambridge, Massachusetts and Oslo, is backed by F-Prime
+  Capital, Third Rock Ventures, Omega Funds, Sofinnova Partners, B Capital, ARE and
+  QIA, and is privately held. It publishes no public API, developer portal, SDK or
+  machine-readable specification - software is not its product.'
 url: https://raw.githubusercontent.com/api-evangelist/artbio/refs/heads/main/apis.yml
+image: https://artbio.com/icons/icon-512x512.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
+x-tier: profiled
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Radiopharmaceuticals
+- Oncology
+- Clinical Trials
+- Life Sciences
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,63 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/artbio-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://artbio.com/
+- type: PrivacyPolicy
+  url: https://artbio.com/privacy-policy
+- type: TermsOfService
+  url: https://artbio.com/terms-of-service
+- type: News
+  url: https://artbio.com/#news
+- type: Careers
+  url: https://artbio.com/#careers
+- type: Contact
+  url: mailto:info@artbio.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/artbio-inc/
+- type: Twitter
+  url: https://twitter.com/artbio_inc
+- type: Technology
+  url: https://artbio.com/our-approach
+- type: ClinicalTrials
+  url: https://artbio.com/clinical-trials
+- type: LLMsTxt
+  url: llms/artbio-llms.txt
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    ARTBIO is a clinical-stage radiopharmaceutical company whose product is a 212Pb alpha
+    radioligand therapy and an isotope-manufacturing process, not software — artbio.com is
+    a five-page corporate site (pipeline, approach, clinical trials, news, careers) that
+    returns 404 for every spec, docs and .well-known path probed, and no api./docs./
+    developer./portal./app. subdomain resolves in DNS at all.
+  evidence:
+  - url: https://artbio.com/openapi.json
+    status: 404
+  - url: https://artbio.com/api-docs
+    status: 404
+  - url: https://artbio.com/docs
+    status: 404
+  - url: https://artbio.com/graphql
+    status: 404
+  - url: https://artbio.com/llms.txt
+    status: 404
+  - url: https://artbio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://artbio.com/.well-known/agent.json
+    status: 404
+  - url: https://artbio.com/.well-known/security.txt
+    status: 404
+  - url: https://api.artbio.com/openapi.json
+    status: 0
+  - url: https://docs.artbio.com/
+    status: 0
+  checked: '2026-08-06'

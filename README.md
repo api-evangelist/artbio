@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ARTBIO is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+ARTBIO is a clinical-stage radiopharmaceutical company developing targeted Alpha Radioligand Therapies (ARTs) built on the lead-212 (212Pb) isotope, paired with its proprietary AlphaDirect 212Pb isolation and distributed-manufacturing technology. Founded in 2021 out of the University of Oslo and Norway's Radium Hospital, it operates from Cambridge, Massachusetts and Oslo, with lead program AB001 in Phase 1 trials in metastatic castration-resistant prostate cancer.
+
+ARTBIO publishes no public API, developer portal, SDK or machine-readable specification — software is not its product. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://artbio.com/
