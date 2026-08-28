@@ -15,6 +15,17 @@ description: 'ARTBIO is a clinical-stage radiopharmaceutical company developing 
   QIA, and is privately held. It publishes no public API, developer portal, SDK or
   machine-readable specification - software is not its product.'
 url: https://raw.githubusercontent.com/api-evangelist/artbio/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://artbio.com/icons/icon-512x512.png
 x-type: company
 x-source: harvest:secondary-market
