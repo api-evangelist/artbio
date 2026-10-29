@@ -64,8 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ARTBIO is a clinical-stage radiopharmaceutical company developing targeted Alpha Radioligand Therapies (ARTs) built on the lead-212 (212Pb) isotope, paired with its proprietary AlphaDirect 212Pb isolation and distributed-manufacturing technology. Founded in 2021 out of the University of Oslo and Norway's Radium Hospital, it operates from Cambridge, Massachusetts and Oslo, with lead program AB001 in Phase 1 trials in metastatic castration-resistant prostate cancer.
+ARTBIO is a clinical-stage radiopharmaceutical company developing a new class of targeted Alpha Radioligand Therapies (ARTs) built on the lead-212 (212Pb) isotope. Founded in 2021 out of research at the University of Oslo and Norway's Radium Hospital by Roy Larsen and Oyvind Bruland - the scientific co-founders behind Xofigo - the company pairs a differentiated oncology pipeline with its proprietary AlphaDirect isotope-production technology, a first-of-its-kind 212Pb isolation method intended to enable distributed manufacturing and reliable supply of alpha radioligand therapies. Its lead program AB001 (212Pb-NG001) is in first-in-human Phase 1 trials in metastatic castration-resistant prostate cancer, with additional preclinical and discovery programs across breast, head and neck, lung, pancreatic and other solid tumors. ARTBIO operates from Cambridge, Massachusetts and Oslo, is backed by F-Prime Capital, Third Rock Ventures, Omega Funds, Sofinnova Partners, B Capital, ARE and QIA, and is privately held. It publishes no public API, developer portal, SDK or machine-readable specification - software is not its product.
 
-ARTBIO publishes no public API, developer portal, SDK or machine-readable specification — software is not its product. See `x-coverage` in `apis.yml` for the probed evidence.
+**Areas:** Company · Biotechnology · Pharmaceuticals · Radiopharmaceuticals · Oncology · Clinical Trials · Life Sciences · Healthcare
 
-- https://artbio.com/
+## ARTBIO on APIs.io
+
+Everything profiled for ARTBIO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/artbio/](https://apis.io/providers/artbio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Artbio Domain Security](https://apis.io/security/artbio/artbio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://artbio.com/)
+- [Terms of service](https://artbio.com/terms-of-service)
+- [Privacy policy](https://artbio.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/artbio/](https://apis.io/providers/artbio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ARTBIO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/artbio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
